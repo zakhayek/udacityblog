@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@import 'style2.css';
+@import 'style3.css';
+@import 'style4.css';
+
+#contact{
+  height: 40px;
+  width: 40px;
+}
+
+#icon{
+  grid-area: icon;
+  height: 60px;
+  width: 60px;
+}
+
+#fb{
+  grid-area: fb;
+}
+
+#ig{
+  grid-area: ig;
+}
+
+#twit{
+  grid-area: twit;
+}
+
+#email{
+  grid-area: email;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six{
+  background-size: cover;
+  background-position: center;
+}
+
+#one{
+  background-image:url("../images/cat.jpg");
+}
+
+#two{
+  background-image:url("../images/goldengate.jpg");
+}
+
+#three{
+  background-image:url("../images/sanfran.jpg");
+}
+
+#four{
+  background-image:url("../images/statue.jpg");
+}
+
+#five{
+  background-image:url("../images/amsterdam.jpg");
+}
+
+#six{
+  background-image:url("../images/eiffelview.jpg");
+}
+
+#archive{
+  border-bottom: 2px solid black;
+}

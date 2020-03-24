@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@media only screen and (max-width: 900px){
+  .main{
+    padding: 0;
+  }
+
+  .container{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .header{
+    grid-template-columns: 60px .5fr repeat(4, 40px);
+    grid-auto-rows: auto;
+    grid-template-areas: "icon space fb ig twit email";
+    grid-gap: 10px;
+  }
